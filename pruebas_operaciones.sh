@@ -8,7 +8,7 @@
     str2=$2
     
     #------------------------------------
-    ## comando de prueba
+    # comando de prueba
     
     echo "¿La cadena 1 contiene 0 en longitud? Valor del 1 significa FALSO"
     [ -z "$str1" ]
@@ -40,7 +40,6 @@
     fi
     
     ## compara las dos cadenas a ver si son iguales
-    
     if [[ $str1 == $str2 ]]
     then
      echo "Cadena 1 es igual a Cadena 2"
