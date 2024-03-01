@@ -24,5 +24,3 @@ until [[ $QUESTION =~ \?$ ]]
 do
   GET_FORTUNE again
 done
-
-echo -e "\n${RESPONSES[$N]}"
