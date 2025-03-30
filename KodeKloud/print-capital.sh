@@ -1,0 +1,1 @@
+echo "El pais: $1 su capital es: $2"
