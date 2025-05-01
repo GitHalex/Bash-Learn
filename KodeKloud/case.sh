@@ -7,5 +7,4 @@ reset=`tput sgr0`
         red) echo "${red}this is red${reset}";;
         green) echo "${green}this is green${reset}";;
         *) echo "red and green are the only choices"
-    esac
-~                                                                                   
+    esac                                                                               
